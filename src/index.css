@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
