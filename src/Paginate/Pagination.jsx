@@ -1,6 +1,6 @@
 export default function Pagination({ totalPages, currentPage, handlePage }) {
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <button
         onClick={() => handlePage(currentPage - 1)}
         disabled={currentPage === 1}

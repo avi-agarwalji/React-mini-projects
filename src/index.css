@@ -1,12 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .App {
   font-family: sans-serif;
 }
 
 button {
   cursor: pointer;
+  padding: 2px 4px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 2px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 2px;
 }
 
 .container {
-  max-width: 50rem;
-  margin: 0 auto;
+  max-width: 40rem;
+  margin: 6px auto;
+}
+
+.products {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  overflow-y: scroll;
 }
